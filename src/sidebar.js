@@ -2,6 +2,7 @@ import React from "react";
 
 import "./styles.scss";
 import Input from "./components/input";
+import Footer from "./components/footer";
 import { IMG_LOGO } from "./constants";
 
 const SideBar = () => {
@@ -46,7 +47,9 @@ const SideBar = () => {
         <i class="bx bx-cog bx-md"></i>
         <span>Settings</span>
       </div>
-      <div className="sidebar__footer">Footer</div>
+      <div className="sidebar__footer">
+        <Footer />
+      </div>
     </div>
   );
 };

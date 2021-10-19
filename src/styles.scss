@@ -1,15 +1,19 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .sidebar {
+  left: 0;
+  top: 0;
   width: 220px;
-  height: 100vH;
+  height: 100%;
   padding: 1rem;
   color: white;
+  position: fixed;
   font-weight: 300;
   font-size: 1.2rem;
-  position: relative;
   background-color: #080728;
   font-family: 'Montserrat', sans-serif;
 
@@ -57,7 +61,8 @@ body {
   }
 
   &__footer {
-    bottom: 0;
+    bottom: 40px;
+    width: inherit;
     position: absolute;
   }
 }

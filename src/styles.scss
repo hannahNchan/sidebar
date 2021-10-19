@@ -5,6 +5,12 @@ body {
 }
 
 .sidebar:is(.close-sidebar) {
+  & div.sidebar__item:hover {
+    & > span.tooltip {
+      visibility: visible;
+    }
+  }
+
   & div.sidebar__item {
     & > span {
       visibility: hidden;
@@ -98,3 +104,33 @@ body {
   transition: all 0.3s ease-in-out;
   width: 50px;
 }
+
+// @media (max-width: 420px) {
+//   .sidebar .tooltip{
+//     display: none;
+//   }
+// }
+.tooltip {
+  left: 90px;
+  width: 200px;
+  height: 50px;
+  visibility: hidden;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #e3f5f9;
+  transition: all 0.5s ease-in-out;
+}
+// .sidebar:is(.close-sidebar) {
+//   background-color: red;
+// }
+// & div.sidebar__item:hover::before {
+//   left: 90px;
+//   width: 200px;
+//   height: 50px;
+//   content: "Aqui";
+//   position: absolute;
+//   border-radius: 10px;
+//   visibility: visible;
+//   background-color: #e3f5f9;
+//   transition: all 1s ease-in-out;
+// }

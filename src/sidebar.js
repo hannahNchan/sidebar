@@ -33,34 +33,42 @@ const SideBar = () => {
       <div className="sidebar__item">
         <i className="bx bxs-dashboard bx-md"></i>
         <span>Dashboard</span>
+        <span class="tooltip">Dashboard</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-user-circle bx-md"></i>
         <span>User</span>
+        <span class="tooltip">User</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-message-dots bx-md"></i>
         <span>Messages</span>
+        <span class="tooltip">Messages</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-analyse bx-md"></i>
         <span>Analytics</span>
+        <span class="tooltip">Analytics</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-file bx-md"></i>
         <span>File manager</span>
+        <span class="tooltip">File manager</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-receipt bx-md"></i>
         <span>Order</span>
+        <span class="tooltip">Order</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-save bx-md"></i>
         <span>Saved</span>
+        <span class="tooltip">Saved</span>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-cog bx-md"></i>
         <span>Settings</span>
+        <span class="tooltip">Settings</span>
       </div>
       <div className="sidebar__footer">
         <Footer />

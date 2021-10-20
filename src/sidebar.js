@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import "./styles.scss";
 import Input from "./components/input";
-import Footer from "./components/footer";
+import IMG_ME from "./public/mesquare.jpg";
 import { IMG_LOGO } from "./constants";
 
 const SideBar = () => {
@@ -33,45 +33,62 @@ const SideBar = () => {
       <div className="sidebar__item">
         <i className="bx bxs-dashboard bx-md"></i>
         <span>Dashboard</span>
-        <span class="tooltip">Dashboard</span>
+        <div class="tooltip">
+          <span>Dashboard</span>
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-user-circle bx-md"></i>
         <span>User</span>
-        <span class="tooltip">User</span>
+        <div class="tooltip">
+          <span>User</span>
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-message-dots bx-md"></i>
         <span>Messages</span>
-        <span class="tooltip">Messages</span>
+        <div class="tooltip">
+          <span>Messages</span>
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-analyse bx-md"></i>
         <span>Analytics</span>
-        <span class="tooltip">Analytics</span>
+        <div class="tooltip">
+          <span>Analytics</span>
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-file bx-md"></i>
         <span>File manager</span>
-        <span class="tooltip">File manager</span>
+        <div class="tooltip">
+          <span>File</span> manager
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-receipt bx-md"></i>
         <span>Order</span>
-        <span class="tooltip">Order</span>
+        <div class="tooltip">
+          <span>Order</span>
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-save bx-md"></i>
         <span>Saved</span>
-        <span class="tooltip">Saved</span>
+        <div class="tooltip">
+          <span>Saved</span>
+        </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-cog bx-md"></i>
         <span>Settings</span>
-        <span class="tooltip">Settings</span>
+        <div class="tooltip">
+          <span>Settings</span>
+        </div>
       </div>
       <div className="sidebar__footer">
-        <Footer />
+        <img className="sidebar__footer__img" src={IMG_ME} alt="yo" />
+        <span className="sidebar__footer__text">Powered by Hannah</span>
       </div>
     </div>
   );

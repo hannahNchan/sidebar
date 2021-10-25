@@ -33,56 +33,56 @@ const SideBar = () => {
       <div className="sidebar__item">
         <i className="bx bxs-dashboard bx-md"></i>
         <span>Dashboard</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>Dashboard</span>
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-user-circle bx-md"></i>
         <span>User</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>User</span>
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-message-dots bx-md"></i>
         <span>Messages</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>Messages</span>
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-analyse bx-md"></i>
         <span>Analytics</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>Analytics</span>
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-file bx-md"></i>
         <span>File manager</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>File</span> manager
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-receipt bx-md"></i>
         <span>Order</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>Order</span>
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-save bx-md"></i>
         <span>Saved</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>Saved</span>
         </div>
       </div>
       <div className="sidebar__item">
         <i className="bx bx-cog bx-md"></i>
         <span>Settings</span>
-        <div class="tooltip">
+        <div className="tooltip">
           <span>Settings</span>
         </div>
       </div>

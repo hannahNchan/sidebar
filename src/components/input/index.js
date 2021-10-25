@@ -6,7 +6,7 @@ const Input = () => {
   return (
     <div className="search">
       <input type="text" className="search__field" placeholder="Search" />
-      <i class="bx bx-search-alt"></i>
+      <i className="bx bx-search-alt"></i>
     </div>
   );
 };
